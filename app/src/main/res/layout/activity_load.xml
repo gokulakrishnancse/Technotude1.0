@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewSplahActivity">
+
+
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="TECHNOTUDE"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+
+    <ImageView
+        android:id="@+id/imageViewAppIcon"
+        android:layout_width="237dp"
+        android:layout_height="280dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        app:srcCompat="@drawable/technotudefinallogo" />
+
+    <TextView
+        android:id="@+id/textViewUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+     android:layout_marginTop="380dp"
+        android:layout_marginEnd="52dp"
+        android:text="Powered by"
+        android:textColor="@color/red"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewPower"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textViewUpdate"
+        android:layout_marginEnd="43dp"
+        app:srcCompat="@drawable/sit" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 %"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/progress_bar"
+
+
+        android:id="@+id/textview"
+
+
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"
+
+
+
+        />
+
+
+
+</RelativeLayout>

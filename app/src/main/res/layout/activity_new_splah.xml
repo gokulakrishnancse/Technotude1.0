@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewSplahActivity">
+
+
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:text="Technotude"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="100dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageViewAppIcon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="58dp"
+        app:srcCompat="@drawable/sociallicon" />
+
+    <TextView
+        android:id="@+id/textViewUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/imageViewAppIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:text="Powered by"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+
+     />
+
+    <ImageView
+        android:id="@+id/imageViewPower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUpdate"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/sit"
+        android:layout_marginTop="4dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 %"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/progress_bar"
+
+        android:id="@+id/textview"
+
+
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+
+
+        />
+
+</RelativeLayout>

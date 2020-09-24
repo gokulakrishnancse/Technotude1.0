@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthenticateActivity">
+
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button123"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+
+            android:text="Home"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/button"
+            android:layout_marginTop="177dp"
+           android:text="Please Wait for admin Authentication..."
+            android:textSize="25dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:id="@+id/textview123"
+
+            />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
